@@ -1,0 +1,224 @@
+{
+  "places": [
+    {
+      "id": "p1",
+      "label": "P1",
+      "tokens": 1,
+      "position": {
+        "x": 344.13447064353653,
+        "y": -171.98680045927466
+      }
+    },
+    {
+      "id": "p2",
+      "label": "P2",
+      "tokens": 0,
+      "position": {
+        "x": 340.45126359179136,
+        "y": 31.817323070625335
+      }
+    },
+    {
+      "id": "p3",
+      "label": "P3",
+      "tokens": 1,
+      "position": {
+        "x": 198.0339242576444,
+        "y": 287.1863453249578
+      }
+    },
+    {
+      "id": "p4",
+      "label": "P4",
+      "tokens": 0,
+      "position": {
+        "x": 522.1561448112203,
+        "y": 299.46370216410844
+      }
+    },
+    {
+      "id": "p5",
+      "label": "P5",
+      "tokens": 0,
+      "position": {
+        "x": 187.0773961291385,
+        "y": 513.7437085846268
+      }
+    },
+    {
+      "id": "p6",
+      "label": "P6",
+      "tokens": 2,
+      "position": {
+        "x": 522.020909646082,
+        "y": 531.6828826995385
+      }
+    },
+    {
+      "id": "p7",
+      "label": "P7",
+      "tokens": 0,
+      "position": {
+        "x": 389.40051793121705,
+        "y": 746.6208570067006
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "id": "t1",
+      "label": "T1",
+      "position": {
+        "x": 350.2731490631119,
+        "y": -41.84681796427827
+      }
+    },
+    {
+      "id": "t2",
+      "label": "T2",
+      "position": {
+        "x": 346.58994201136665,
+        "y": 158.2740985138765
+      }
+    },
+    {
+      "id": "t3",
+      "label": "T3",
+      "position": {
+        "x": 196.80618857372934,
+        "y": 422.23727055561443
+      }
+    },
+    {
+      "id": "t4",
+      "label": "T4",
+      "position": {
+        "x": 531.9780302825407,
+        "y": 432.05915602693494
+      }
+    },
+    {
+      "id": "t5",
+      "label": "T5",
+      "position": {
+        "x": 403.66077510485843,
+        "y": 670.0073772838601
+      }
+    },
+    {
+      "id": "t6",
+      "label": "T6",
+      "position": {
+        "x": -11.312708648106442,
+        "y": 171.9324929089521
+      }
+    }
+  ],
+  "arcs": [
+    {
+      "source": "p1",
+      "target": "t1",
+      "weight": 1,
+      "sourceHandle": "bottom",
+      "targetHandle": "top"
+    },
+    {
+      "source": "t1",
+      "target": "p2",
+      "weight": 1,
+      "sourceHandle": "bottom",
+      "targetHandle": "top"
+    },
+    {
+      "source": "p2",
+      "target": "t2",
+      "weight": 1,
+      "sourceHandle": "bottom",
+      "targetHandle": "top"
+    },
+    {
+      "source": "t2",
+      "target": "p3",
+      "weight": 1,
+      "sourceHandle": "bottom",
+      "targetHandle": "top"
+    },
+    {
+      "source": "t2",
+      "target": "p4",
+      "weight": 1,
+      "sourceHandle": "bottom",
+      "targetHandle": "top"
+    },
+    {
+      "source": "p4",
+      "target": "t4",
+      "weight": 1,
+      "sourceHandle": "bottom",
+      "targetHandle": "top"
+    },
+    {
+      "source": "p3",
+      "target": "t3",
+      "weight": 1,
+      "sourceHandle": "bottom",
+      "targetHandle": "top"
+    },
+    {
+      "source": "t3",
+      "target": "p5",
+      "weight": 1,
+      "sourceHandle": "bottom",
+      "targetHandle": "top"
+    },
+    {
+      "source": "t4",
+      "target": "p6",
+      "weight": 1,
+      "sourceHandle": "bottom",
+      "targetHandle": "top"
+    },
+    {
+      "source": "p6",
+      "target": "t5",
+      "weight": 1,
+      "sourceHandle": "bottom",
+      "targetHandle": "top"
+    },
+    {
+      "source": "p5",
+      "target": "t5",
+      "weight": 1,
+      "sourceHandle": "bottom",
+      "targetHandle": "top"
+    },
+    {
+      "source": "t5",
+      "target": "p7",
+      "weight": 1,
+      "sourceHandle": "bottom",
+      "targetHandle": "top"
+    },
+    {
+      "source": "p3",
+      "target": "t6",
+      "weight": 1,
+      "sourceHandle": "left",
+      "targetHandle": "bottom"
+    },
+    {
+      "source": "p7",
+      "target": "t6",
+      "weight": 1,
+      "sourceHandle": "left",
+      "targetHandle": "bottom"
+    },
+    {
+      "source": "t6",
+      "target": "p1",
+      "weight": 1,
+      "sourceHandle": "top",
+      "targetHandle": "left"
+    }
+  ]
+}
